@@ -1,0 +1,21 @@
+.superHeroList {
+  position: absolute;
+  background-color: #fff;
+  color: black;
+  list-style: none;
+  margin: 0;
+  border-radius: 0 0 5px 5px;
+  width: 92%;
+  margin-left: 4%;
+  padding: 0;
+  z-index: 1;
+}
+
+.superHeroListItem:hover {
+  background-color: #dddddd;
+  display: block;
+}
+
+.superHeroListItem {
+  padding: 0.5rem;
+}

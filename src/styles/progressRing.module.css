@@ -1,0 +1,27 @@
+.circle {
+  width: 200px;
+  height: 200px;
+}
+
+svg circle {
+  fill: none;
+  stroke: #2d132c;
+  stroke-width: 20;
+}
+
+.inner {
+  stroke: #c72c41;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  animation: progress 2s ease-out;
+}
+
+.progressRingWrap {
+  position: relative;
+}
+
+@keyframes progress {
+  from {
+    stroke-dashoffset: 377;
+  }
+}

@@ -1,0 +1,19 @@
+.circle {
+  width: 200px;
+  height: 200px;
+}
+
+svg circle {
+  fill: none;
+  stroke: #2d132c;
+  stroke-width: 20;
+}
+
+.inner {
+  stroke: #3c5c97;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  animation: progress 2s ease-out 0s 1;
+  stroke-dashoffset: 188;
+  stroke-dasharray: 377;
+}

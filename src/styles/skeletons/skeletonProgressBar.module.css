@@ -1,0 +1,27 @@
+.wrap {
+  width: 80%;
+  margin: auto;
+}
+
+.outer {
+  position: relative;
+  background: #2d132c;
+  height: 20px;
+  width: 90%;
+  border-radius: 15px;
+  display: inline-block;
+}
+.inner {
+  background-color: #3c5c97;
+  width: 50%;
+  height: 20px;
+  border-radius: 15px;
+}
+
+.label {
+  align-self: flex-start;
+  margin: 0.5rem auto;
+  height: 20px;
+  width: 20%;
+  background: #3c5c97;
+}

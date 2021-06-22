@@ -1,0 +1,30 @@
+.searchBarWrap {
+  position: relative;
+  width: 80%;
+  margin: 0 auto 1rem auto;
+}
+
+.searchBarLabel {
+  margin-left: 15px;
+  display: block;
+  padding: 1rem 0 0.2rem 0;
+}
+
+.searchBar {
+  height: 45px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+}
+
+.searchBar:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.searchBar:focus {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}

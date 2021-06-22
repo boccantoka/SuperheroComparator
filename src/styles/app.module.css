@@ -1,0 +1,11 @@
+.app {
+  background-color: #394867;
+  color: white;
+  min-height: 100vh;
+}
+
+.appWrap {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}

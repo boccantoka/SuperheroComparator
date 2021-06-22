@@ -1,0 +1,14 @@
+.superHeroImg {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 1rem;
+}
+
+.superHeroCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #263859;
+  border-radius: 2%;
+}
